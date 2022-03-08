@@ -1,15 +1,12 @@
-import React, { Component } from "react";
-import { BrowserRouter } from "react-router-dom";
-class App extends Component {
-  renderRouter(){
-    return (
-        <div>Hi This is app</div>
-    );
-  }
+import Footer from "./components/Footer";
+import "./App.css";
 
-  render() {
-    return <BrowserRouter>{this.renderRouter()}</BrowserRouter>;
-  }
+function App() {
+  return (
+    <div className="App">
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
