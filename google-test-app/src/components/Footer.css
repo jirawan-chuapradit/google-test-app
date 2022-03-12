@@ -30,6 +30,10 @@
   font-family: arial, sans-serif;
 }
 
+a.item1:hover {
+  text-decoration: underline;
+}
+
 .container-fluid {
   position: fixed;
   left: 0;
