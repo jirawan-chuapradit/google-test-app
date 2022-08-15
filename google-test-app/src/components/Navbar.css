@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  position: absolute;
+  right: -20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+.right-item {
+  padding: 0 8px;
+  text-decoration: none;
+  color: #999da2;
+  cursor: pointer;
+}
+.rightLinks {
+  padding: 10px;
+  margin-right: 16px;
+  align-items: center;
+}
+svg{
+  height: 24px;
+  width: 24px;
+}
+img {
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+  }
