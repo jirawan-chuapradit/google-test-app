@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="container-fluid">
-      <div class="lang">ไทย</div>
+      <div className="lang">ไทย</div>
       <div className="grid-container">
         <div className="footer">
           <a href="https://google.com" className="item1">

@@ -3,8 +3,7 @@ import Profile from "../images/profile.jpg"
 const Navbar = () => {
   return (
     <div className="navbar">
-    
-      <div class="rightLinks">
+      <div className="rightLinks">
         <a href="/gmail" className="right-item">
           Gmail
         </a>

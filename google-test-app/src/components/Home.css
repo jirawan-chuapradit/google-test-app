@@ -1,0 +1,27 @@
+.logo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 10vh;
+    min-width: 30vh;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.container{
+    margin: 30px auto;
+    width: 350px;
+}
+
+.search{
+    background-color: white;
+    margin: 30px auto;
+    border-radius:15px ;
+    height: 100%;
+    width: 100%;
+    padding-inline-end: 40px;
+    padding-inline-start: 52px;
+    min-width: 100px;
+    min-height: 30px;
+}
