@@ -16,7 +16,22 @@
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  width: 12%;
+  width: 10%;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 svg{
   height: 24px;
@@ -29,4 +44,4 @@ svg{
     align-items: center;
     height: 32px;
     width: 32px;
-  }
+}

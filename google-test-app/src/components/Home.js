@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className="container">
             <img src={googleLogo} alt="Google" className="logo"></img>
-            <input className="search" id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Search Google or type a URL" aria-live="polite"></input>
+            <input className="search" id="input" type="search" autocomplete="off" spellcheck="false"  placeholder="Search Google or type a URL"></input>
         </div>
        
     )
