@@ -228,7 +228,8 @@ const Navbar = () => {
                                             </div>
                                         </Col>
                                     </Row>
-                                    <hr className="icon_separate"></hr>
+
+                                    <div className="icon_separate" />
 
                                     <Row className="row_item">
                                         <Col sm={4} className="col_item">
