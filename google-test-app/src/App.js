@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Circle from "./pages/Circle";
 import HomePage from "./pages/HomePage";
+import Gmail from "./pages/Gmail";
 
 function App() {
   let component
@@ -16,6 +17,9 @@ function App() {
     case "/home":
       component = <HomePage/>
       break;
+    case "/gmail":
+        component = <Gmail/>
+        break;
   }
   return (
     <>

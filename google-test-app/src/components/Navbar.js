@@ -46,17 +46,16 @@ const Navbar = () => {
                 <Col sm={8}></Col>
                 <Col sm={4}>
                     <div className="rightLinks">
-                        <div className="nav-icon">
-                            <a href="/gmail">Gmail</a>
-                        </div>
-
-                        <div className="nav-icon">
+                        <CustomLink href="/gmail">Gmail</CustomLink>
+                        <CustomLink href="/images">ค้นรูป</CustomLink>
+                        <CustomLink href="/circle">วงกลม</CustomLink>
+                        {/* <div className="nav-icon">
                             <a href="/images">ค้นรูป</a>
-                        </div>
+                        </div> */}
 
-                        <div className="nav-icon">
+                        {/* <div className="nav-icon">
                             <a href="/circile">วงกลม</a>
-                        </div>
+                        </div> */}
 
                         <div className="nav-icon">
                             <svg
@@ -362,4 +361,11 @@ const Navbar = () => {
     );
 };
 
+function CustomLink({href, children,...props}){
+    return (
+        <div className="nav-icon">
+            <a href={href}>{children}</a>
+        </div>
+    )
+}
 export default Navbar;
