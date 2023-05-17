@@ -29,7 +29,8 @@ import Finance from "../images/growth.png";
 
 import { useState } from "react";
 
-import { Container, Row, Col } from "react-grid-system";
+import { Row, Col } from "react-grid-system";
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -46,16 +47,9 @@ const Navbar = () => {
                 <Col sm={8}></Col>
                 <Col sm={4}>
                     <div className="rightLinks">
-                        <CustomLink href="/gmail">Gmail</CustomLink>
-                        <CustomLink href="/images">ค้นรูป</CustomLink>
-                        <CustomLink href="/circle">วงกลม</CustomLink>
-                        {/* <div className="nav-icon">
-                            <a href="/images">ค้นรูป</a>
-                        </div> */}
-
-                        {/* <div className="nav-icon">
-                            <a href="/circile">วงกลม</a>
-                        </div> */}
+                        <CustomLink to="/gmail">Gmail</CustomLink>
+                        <CustomLink to="/images">ค้นรูป</CustomLink>
+                        <CustomLink to="/circle">วงกลม</CustomLink>
 
                         <div className="nav-icon">
                             <svg
@@ -361,10 +355,10 @@ const Navbar = () => {
     );
 };
 
-function CustomLink({href, children,...props}){
+function CustomLink({to, children,...props}){
     return (
         <div className="nav-icon">
-            <a href={href}>{children}</a>
+            <Link to={to} {...props}>{children}</Link>
         </div>
     )
 }
