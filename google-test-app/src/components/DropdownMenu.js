@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import Profile from "../images/profile.jpg";
+import { Container, Row, Col } from "react-grid-system";
 import Google from "../images/google.png";
 import Youtube from "../images/youtube.png";
 import GoogleMap from "../images/google-maps.png";
@@ -24,53 +24,9 @@ import Slides from "../images/slides.png";
 import Book from "../images/book.png";
 
 import Finance from "../images/growth.png";
-
-
-
-import { useState } from "react";
-
-import { Container, Row, Col } from "react-grid-system";
-
-const Navbar = () => {
-    const [open, setOpen] = useState(false);
-
-    const openDropDown = () => {
-        console.log("click !!!");
-        console.log(open);
-        setOpen(!open);
-    };
-
-    return (
-        <>
-            <Row>
-                <Col sm={8}></Col>
-                <Col sm={4}>
-                    <div className="rightLinks">
-                        <div className="nav-icon">
-                            <a href="/gmail">Gmail</a>
-                        </div>
-
-                        <div className="nav-icon">
-                            <a href="/images">ค้นรูป</a>
-                        </div>
-
-                        <div className="nav-icon">
-                            <a href="/circile">วงกลม</a>
-                        </div>
-
-                        <div className="nav-icon">
-                            <svg
-                                focusable="false"
-                                viewBox="0 0 24 24"
-                                onClick={openDropDown}
-                            >
-                                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z" />
-                            </svg>
-                        </div>
-
-                        <div className="nav-icon">
-                            {open && (
-                                <div className="dropdown">
+const Dropdown =() =>{
+    <>
+    <div className="dropdown">
                                     <Row className="row_item">
                                         <Col sm={4} className="col_item">
                                             <div className="item_container">
@@ -345,21 +301,7 @@ const Navbar = () => {
                                     </Row>
 
                                 </div>
-                            )}
-                        </div>
-                        <div>
-                            <img
-                                src={Profile}
-                                alt="บัญชี google"
-                                className="profile"
-                            ></img>
-                        </div>
-                    </div>
-                    {/* </div> */}
-                </Col>
-            </Row>
-        </>
-    );
-};
+    </>
+}
 
-export default Navbar;
+export default Dropdown

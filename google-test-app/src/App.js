@@ -1,13 +1,28 @@
 import Footer from "./components/Footer";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Circle from "./pages/Circle";
+import HomePage from "./pages/HomePage";
 
 function App() {
+  let component
+  switch (window.location.pathname) {
+    case "/":
+      component = <HomePage/>
+      break;
+    case "/circle":
+      component = <Circle/>
+      break;
+    case "/home":
+      component = <HomePage/>
+      break;
+  }
   return (
     <>
       <Navbar />
-      <Home/>
+      <div className="container">
+      {component}
+      </div>
       <Footer />
     </>
   );
