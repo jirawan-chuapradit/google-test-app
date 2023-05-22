@@ -2,9 +2,10 @@ import Footer from "./components/Footer";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Circle from "./pages/Circle";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Home";
 import Gmail from "./pages/Gmail";
 import { Route,Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   // let component
@@ -30,7 +31,7 @@ function App() {
           <Route path="/" element={<HomePage/>}></Route>
           <Route path="/circle" element={<Circle/>}></Route>
           <Route path="/gmail" element={<Gmail/>}></Route>
-          <Route path="/home" element={<HomePage/>}></Route>
+          <Route path="/home" element={<Home/>}></Route>
         </Routes>
       </div>
       <Footer />

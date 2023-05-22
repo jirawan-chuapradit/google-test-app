@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "./Home.css"
 import googleLogo from '../images/logo_google.png'
@@ -5,6 +6,12 @@ import googleLogo from '../images/logo_google.png'
 function Home() {
     const search = (event)=>{
         console.log(event.target.value)
+        var validator = /^([a-z]|[0-9])*$/; // start and end with any letter or digit
+        if (validator.test(event.target.value)) {
+            return true
+        }else {
+            alert("Enter only letters and digits")
+        }
     }
     return (
         <div className="container">
