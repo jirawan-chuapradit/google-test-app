@@ -44,7 +44,7 @@ svg{
 .dropdown {
   position: absolute;
   top: 100%;
-  right: 0px;
+  right: 70px;
   width: 328px;
   height: 418px;
   z-index: 2;
@@ -73,9 +73,16 @@ svg{
   height: 36px;
   margin-bottom: 12px;
 }
+.col_item{
+  min-width: 30%;
+}
 .row_item{
   margin: 10px;
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
@@ -95,10 +102,9 @@ li:hover {
 
 .icon_separate {
   height: 1px;
+  width: 100%;
   background-color: #ccc;
   border: none;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .item_container:hover {

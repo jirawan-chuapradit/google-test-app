@@ -64,8 +64,8 @@ const Navbar = () => {
                         <div className="nav-icon">
                             {open && (
                                 <div className="dropdown">
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Google}
@@ -73,8 +73,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Search
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Youtube}
@@ -82,8 +82,8 @@ const Navbar = () => {
                                                 ></img>
                                                 YouTube
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={GoogleMap}
@@ -91,11 +91,11 @@ const Navbar = () => {
                                                 ></img>
                                                 Maps
                                             </div>
-                                        </Col>
-                                    </Row>
+                                        </div>
+                                    </div>
 
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={GoogleCalendar}
@@ -103,8 +103,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Calendar
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Gmail}
@@ -112,8 +112,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Gmail
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={GoogleDrive}
@@ -121,11 +121,11 @@ const Navbar = () => {
                                                 ></img>
                                                 Drive
                                             </div>
-                                        </Col>
-                                    </Row>
+                                        </div>
+                                    </div>
 
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={GoogleCalendar}
@@ -133,8 +133,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Calendar
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Translate}
@@ -142,8 +142,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Translate
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Photos}
@@ -151,12 +151,11 @@ const Navbar = () => {
                                                 ></img>
                                                 Photos
                                             </div>
-                                        </Col>
-                                    </Row>
+                                        </div>
+                                    </div>
 
-
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={GooglePlay}
@@ -164,8 +163,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Play
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={News}
@@ -173,8 +172,8 @@ const Navbar = () => {
                                                 ></img>
                                                 News
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Meet}
@@ -182,11 +181,11 @@ const Navbar = () => {
                                                 ></img>
                                                 Meet
                                             </div>
-                                        </Col>
-                                    </Row>
+                                        </div>
+                                    </div>
 
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={GooglePlay}
@@ -194,8 +193,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Play
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={News}
@@ -203,8 +202,8 @@ const Navbar = () => {
                                                 ></img>
                                                 News
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Meet}
@@ -212,13 +211,13 @@ const Navbar = () => {
                                                 ></img>
                                                 Meet
                                             </div>
-                                        </Col>
-                                    </Row>
+                                        </div>
+                                    </div>
 
                                     <div className="icon_separate" />
 
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Docs}
@@ -226,8 +225,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Docs
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Contact}
@@ -235,8 +234,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Contacts
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Hangoouts}
@@ -244,20 +243,20 @@ const Navbar = () => {
                                                 ></img>
                                                 Hangoouts
                                             </div>
-                                        </Col>
-                                    </Row>
+                                        </div>
+                                    </div>
 
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Keeps}
                                                     className="icon"
                                                 ></img>
-                                                Keep
+                                                Keeps
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Classroom}
@@ -265,8 +264,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Classroom
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Jamboard}
@@ -274,11 +273,11 @@ const Navbar = () => {
                                                 ></img>
                                                 Jamboard
                                             </div>
-                                        </Col>
-                                    </Row>
-
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Earth}
@@ -286,8 +285,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Earth
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Collection}
@@ -295,8 +294,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Collection
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Finance}
@@ -304,11 +303,11 @@ const Navbar = () => {
                                                 ></img>
                                                 Finance
                                             </div>
-                                        </Col>
-                                    </Row>
-                            
-                                    <Row className="row_item">
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                    </div>
+
+                                    <div className="row_item">
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Sheets}
@@ -316,8 +315,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Sheets
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Slides}
@@ -325,8 +324,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Slides
                                             </div>
-                                        </Col>
-                                        <Col sm={4} className="col_item">
+                                        </div>
+                                        <div className="col_item">
                                             <div className="item_container">
                                                 <img
                                                     src={Book}
@@ -334,8 +333,8 @@ const Navbar = () => {
                                                 ></img>
                                                 Book
                                             </div>
-                                        </Col>
-                                    </Row>
+                                        </div>
+                                    </div>
 
                                 </div>
                             )}
