@@ -10,11 +10,10 @@ function Home() {
        let txt = event.target.value || ""
         console.log(txt)
         var validator = /^([a-zA-Z]|[0-9])*$/; // start and end with any letter or digit
-        const validatorinvert = /[!"#$%&'()*+,-./:;<=>?@[]^_`{|}~]/g;
+        const validatorinvert = /[!()*+,-./:;<=>?@[\]^_`{|}~]/g; 
         if (!validator.test(txt)) {
-            const original  = '123S!'
-           
-            const replaceStr  =  original.replace(validatorinvert,"test")
+            const original  = txt
+            const replaceStr  =  original.replace(validatorinvert,"")
             setSearch(replaceStr) 
         }else {
             setSearch(txt)  
